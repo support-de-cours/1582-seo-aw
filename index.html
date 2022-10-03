@@ -1,7 +1,18 @@
 <!DOCTYPE html>
+<!--
+    - Migrer le site vers HTTPS
+    - Un nom de domaine avec les mots clé du site
+    - Limiter la profondeur des page (limiter l'accès à l'information à 3 cliques MAX)
+    - Limiter le site à 3 secondes de chargement MAX
+    - Corriger les liens cassés
+        - Supprimer le liens des moteurs de recherches
+        - Rediriger le liens en indiquant le code 301 ou 302
+    - Donner un role à la page 404
+-->
+
 
 <!-- Attribut langue adapté au contenu de la page -->
-<html lang="fr">
+<html lang="fr-FR">
 
 <head>
     <!--
@@ -29,6 +40,7 @@
     -->
     <meta name="description" content="2 oct. 2022 - Louez auprès d&#x27;habitants à Amiens, France à partir de 20 € par nuit. Trouvez des hébergements uniques auprès d&#x27;hôtes locaux dans 191 pays. Soyez chez vous, ailleurs, avec Super Hotel 3000.">
 
+
     <!--
         Les mots clé du document.
         Liste des mots ou expression qui représente le contenu du document.
@@ -54,11 +66,8 @@
         Liens de pages alternatives
         L'attribut "hreflang" précise la langue de la page alternatif.
     -->
-    <link rel="alternate" href="https://en.superhotel3000.com" hreflang="en-GB">
-    <link rel="alternate" href="https://superhotel3000.com?lang=de" hreflang="de">
-    <link rel="alternate" href="https://nl.superhotel300.com" hreflang="nl">
-    <link rel="alternate" href="https://it.superhotel3000.com" hreflang="it">
     <link rel="alternate" href="https://fr.superhotel3000.com" hreflang="fr">
+    <link rel="alternate" href="https://en.superhotel3000.com" hreflang="en-GB">
 
 
     <!--
@@ -67,6 +76,43 @@
     -->
     <link rel="canonical" href="https://superhotel3000.com">
 
+
+    <!--
+        Indique le nom de l'auteur du document
+    -->
+    <meta name="author" content="John DOE">
+    <link type="text/plain" rel="author" href="http://domain/humans.txt" />
+
+
+    <!--
+        Indique le titulaire des droits
+    -->
+    <meta name="copyright" content="Titulaire des droits">
+
+
+    <!--
+        OpenGraph
+    -->
+    <meta property="og:url"                 content="http://superhotel3000.com/" />
+    <meta property="og:type"                content="website" />
+    <meta property="og:title"               content="Hébergements à Amiens - Super Hotel 3000" />
+    <meta property="og:description"         content="2 oct. 2022 - Louez auprès d&#x27;habitants à Amiens, France à partir de 20 € par nuit. Trouvez des hébergements uniques auprès d&#x27;hôtes locaux dans 191 pays. Soyez chez vous, ailleurs, avec Super Hotel 3000." />
+    <meta property="og:image"               content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <meta property="og:locale"              content="fr-FR" />
+    <meta property="og:locale:alternate"    content="en" />
+    <meta property="og:url:alternate"       content="http://en.superhotel3000.com/" />
+    <meta property="fb:app_id"              content="1234567890">
+
+
+    <!--
+        Twitter Card
+    -->
+    <meta name="twitter:card"               content="summary_large_image">
+    <meta name="twitter:site"               content="@superhotel3000">
+    <meta name="twitter:creator"            content="@JohnDoe">
+    <meta name="twitter:title"              content="Hébergements à Amiens - Super Hotel 3000">
+    <meta name="twitter:description"        content="2 oct. 2022 - Louez auprès d&#x27;habitants à Amiens, France à partir de 20 € par nuit. Trouvez des hébergements uniques auprès d&#x27;hôtes locaux dans 191 pays. Soyez chez vous, ailleurs, avec Super Hotel 3000.">
+    <meta name="twitter:image"              content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg">
 
 </head>
 <body>

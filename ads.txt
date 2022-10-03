@@ -1,0 +1,5 @@
+http://example.com/ads.txt :
+#< SSP/Exchange Domain >, < SellerAccountID >, < PaymentsType >, < TAGID >
+greenadexchange.com, 12345, DIRECT, AEC242
+blueadexchange.com, 4536, DIRECT
+silverssp.com, 9675, REVENDEUR

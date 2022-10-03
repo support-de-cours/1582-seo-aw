@@ -1,0 +1,36 @@
+# http://robots-txt.com
+
+# Google Bot
+User-agent: Googlebot
+
+# Bing
+User-agent: Bingbot
+User-agent: msnbot
+
+# Yahoo
+User-agent: Slurp
+User-agent: Yahoo! Slurp
+
+# Baidu
+User-agent: Baiduspider
+
+# Yandex
+User-agent: Yandex
+
+# Robot PHP
+User-agent: x-php
+
+
+
+
+User-agent: Googlebot
+Disallow: /repertoire-a/
+
+User-agent: Yahoobot
+Disallow: /repertoire-b/
+
+User-agent: *
+Disallow: /assets/
+Disallow: /page-a.html
+
+Allow: /assets/info.txt
